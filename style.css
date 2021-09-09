@@ -1,0 +1,87 @@
+*{
+     margin: 0px;  /*restinf the margin and padding of every element */
+    padding: 0px;
+}
+
+body{
+
+
+    background:url(bulding.jpg) no-repeat center  fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+    
+
+    
+     
+}
+
+.container{
+    
+    position: absolute;
+    top: 9%;
+    left: 64%;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.container h1{
+size: 2em;
+border-bottom: 4px solid black;
+margin-bottom: 10px;
+padding-top: 10px;
+}
+.box
+{   
+    
+    width: 100%;
+    border-bottom: 2px solid rgb(55, 55, 230);
+}
+.box input{
+    width: 75%;
+    margin: 11px 8px;
+    padding: 11px 0px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    height: 20px;
+
+    background:none;
+}
+
+
+
+.box i{
+    margin: 6px
+}
+.btn{
+    border: 4px solid purple;
+    cursor: pointer;
+    outline: none;
+    font-size: 25px;
+    width: 36%;
+    border-radius: 10px;
+    margin: 2px 9px;
+    background: none;
+    font-family: 'Baloo Bhai 2', cursive;
+
+
+}
+.btn:hover{
+color: black;
+background-color: purple;
+
+}
+
+
+@media(max-width:400px){
+ .container{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    font-family: 'Baloo Bhai 2', cursive;
+ }
+
+
+}
+    
+
